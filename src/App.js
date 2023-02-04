@@ -1,6 +1,5 @@
 import styles from './App.module.css';
-
-console.log(styles)
+import TariffSelector from "./components/TariffSelector";
 
 const App = () => (
     <div className={styles.App}>
@@ -8,7 +7,7 @@ const App = () => (
             <h1>App</h1>
         </header>
         <section>
-        {/* some content should appear here a bit later */}
+            <TariffSelector/>
         </section>
     </div>
 );

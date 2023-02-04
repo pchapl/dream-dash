@@ -1,0 +1,43 @@
+.tariff {
+    border: .3rem solid white;
+    text-align: center;
+}
+.tariff div {
+    padding: .3em;
+}
+
+.tariffName {
+    filter: brightness(80%);
+    color: white;
+}
+
+.tariffPrice {
+    color: white;
+}
+
+.tariffSpeed {
+    color: black;
+    background-color: lightgray;
+}
+
+.tariffDetails {
+    color: black;
+    background-color: gray;
+}
+
+.blue {
+    background-color: turquoise;
+}
+
+.green {
+    background-color: lightseagreen;
+}
+
+.red {
+    background-color: #f54242;
+}
+
+.dark {
+    background-color: darkslategray;
+}
+
