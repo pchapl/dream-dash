@@ -1,14 +1,12 @@
 import './App.css';
-import MyPie from "./components/MyPie";
-import MyRandomizedPie from "./components/MyRandomizedPie";
 
 const App = () => (
     <div className="App">
+        <header>
+            <h1>App</h1>
+        </header>
         <section>
-            <MyPie/>
-        </section>
-        <section>
-            <MyRandomizedPie/>
+        {/* some content should appear here a bit later */}
         </section>
     </div>
 );
