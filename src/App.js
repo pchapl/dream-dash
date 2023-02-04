@@ -1,7 +1,9 @@
-import './App.css';
+import styles from './App.module.css';
+
+console.log(styles)
 
 const App = () => (
-    <div className="App">
+    <div className={styles.App}>
         <header>
             <h1>App</h1>
         </header>
