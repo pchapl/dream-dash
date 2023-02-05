@@ -1,3 +1,11 @@
 .tariffSelector {
     display: flex;
 }
+
+.tariffSelector .tariffContainer {
+    box-shadow: 0 0 3px #60686c;
+}
+
+.tariffSelector .tariffContainer.selected {
+    transform: scale(1.05, 1.05);
+}

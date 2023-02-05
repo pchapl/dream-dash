@@ -9,6 +9,10 @@ const data = [
     {color: 'dark', speed: '200', price: '1000'},
 ];
 
+const getTariffContainerClassNames = selected => [styles.tariffContainer, selected && styles.selected]
+    .filter(c => c)
+    .join(' ')
+
 const TariffSelector = () => {
     const [selectedTariff, setTariff] = useState(2);
 
@@ -16,7 +20,7 @@ const TariffSelector = () => {
         <section className={styles.tariffSelector}>
             {data.map((t, i) => <div
                 key={i}
-                style={i === selectedTariff ? {transform: 'scale(1.05, 1.05)'} : {}}
+                className={getTariffContainerClassNames(i === selectedTariff)}
                 onClick={() => setTariff(i)}
             >
                 <Tariff {...t}/>
